@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/tak/pdir/dotnet/playEconomySystem/catalog-svc/src/Catalog.Svc/Catalog.Svc.csproj": {}
+  },
+  "projects": {
+    "/home/tak/pdir/dotnet/playEconomySystem/catalog-svc/src/Catalog.Svc/Catalog.Svc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tak/pdir/dotnet/playEconomySystem/catalog-svc/src/Catalog.Svc/Catalog.Svc.csproj",
+        "projectName": "Catalog.Svc",
+        "projectPath": "/home/tak/pdir/dotnet/playEconomySystem/catalog-svc/src/Catalog.Svc/Catalog.Svc.csproj",
+        "packagesPath": "/home/tak/.nuget/packages/",
+        "outputPath": "/home/tak/pdir/dotnet/playEconomySystem/catalog-svc/src/Catalog.Svc/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/tak/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
